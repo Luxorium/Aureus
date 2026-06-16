@@ -1,10 +1,23 @@
 # Changelog
 
-## 0.1.0
+All notable changes to Aureus will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+
+## [Unreleased]
+
+### Changed
+
+- Standardized repository documentation, GitHub metadata, and CI configuration.
+- Standardized on `plugin.yml` as the single Paper/Folia plugin descriptor.
+
+## [0.1.0] - 2026-06-16
+
+### Added
 
 - Initial Folia-native Aureus foundation.
-- Added SQLite account and transaction storage with WAL mode.
-- Added player balances, payments, admin economy commands, transaction history, and cached balance top.
-- Added safe minor-unit money parsing and formatting.
-- Added public `EconomyService` API for future Luxorium plugins.
-- Added unit tests for money handling, balance mutation, transfers, insufficient funds, and transaction logging.
+- SQLite account and transaction storage with WAL mode.
+- Player balances, payments, admin economy commands, transaction history, and cached balance top.
+- Minor-unit money parsing and formatting.
+- Public `EconomyService` API for future Luxorium plugins.
+- Unit tests for money handling, balance mutation, transfers, insufficient funds, and transaction logging.

@@ -1,0 +1,79 @@
+name: Bug Report
+description: Report a reproducible problem with a Luxorium plugin.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please include enough detail for a maintainer
+        to reproduce the problem on Paper/Folia.
+
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin name and version
+      placeholder: "Aureus 0.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: server-version
+    attributes:
+      label: Server software and version
+      placeholder: "Paper/Folia 26.1.2"
+    validations:
+      required: true
+
+  - type: input
+    id: java-version
+    attributes:
+      label: Java version
+      placeholder: "25.0.3"
+    validations:
+      required: true
+
+  - type: textarea
+    id: luxorium-plugins
+    attributes:
+      label: Other Luxorium plugins installed
+      placeholder: "Civitas 1.0.0, Mercatus 0.1.0, Munera 0.1.0, or none"
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Configure ...
+        2. Run command ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste relevant logs. Remove secrets before posting.
+      render: text
+
+  - type: textarea
+    id: config
+    attributes:
+      label: Config snippets
+      description: Paste only relevant config. Remove secrets and private data.
+      render: yaml

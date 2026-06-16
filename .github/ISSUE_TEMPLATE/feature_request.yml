@@ -1,0 +1,46 @@
+name: Feature Request
+description: Suggest an improvement or new feature for a Luxorium plugin.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What should change?
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: What server workflow or player problem does this solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-behavior
+    attributes:
+      label: Proposed behavior
+      description: Describe the desired behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: commands-permissions-config
+    attributes:
+      label: Commands, permissions, or config impact
+      description: List any expected command syntax, permission nodes, or config keys.
+
+  - type: textarea
+    id: folia-threading
+    attributes:
+      label: Folia or threading concerns
+      description: Note any region, entity, world, scheduler, or async persistence concerns.
+
+  - type: textarea
+    id: ecosystem-integration
+    attributes:
+      label: Ecosystem integration concerns
+      description: Should this interact with Aureus, Mercatus, Munera, or Civitas?

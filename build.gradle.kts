@@ -4,7 +4,12 @@ plugins {
 
 group = "dev.luxorium"
 version = "0.1.0"
-description = "A Folia-native economy core plugin"
+description = "Folia-native economy core for Paper/Folia 26.1.2 Minecraft servers."
+
+repositories {
+    mavenCentral()
+    maven("https://repo.papermc.io/repository/maven-public/")
+}
 
 java {
     toolchain {
@@ -29,7 +34,7 @@ dependencies {
 tasks.processResources {
     val props = mapOf("version" to project.version)
     inputs.properties(props)
-    filesMatching(listOf("plugin.yml", "paper-plugin.yml")) {
+    filesMatching("plugin.yml") {
         expand(props)
     }
 }

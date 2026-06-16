@@ -1,9 +1,22 @@
+# Gradle
 .gradle/
 .gradle-user-home/
 build/
+
+# Local run data
+run/
 *.db
 *.db-shm
 *.db-wal
-run/
-libs/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# Local tools
 .claude/
+libs/

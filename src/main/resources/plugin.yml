@@ -5,7 +5,7 @@ api-version: '26.1.2'
 folia-supported: true
 authors:
   - Luxorium
-description: Folia-native economy core for the Luxor Zone SMP server network.
+description: Folia-native economy core for Paper/Folia 26.1.2 Minecraft servers.
 website: https://github.com/Luxorium/Aureus
 commands:
   balance:
