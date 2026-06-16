@@ -1,0 +1,9 @@
+.gradle/
+.gradle-user-home/
+build/
+*.db
+*.db-shm
+*.db-wal
+run/
+libs/
+.claude/

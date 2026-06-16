@@ -1,0 +1,19 @@
+currency:
+  singular: "Aureus"
+  plural: "Aurei"
+  symbol: "⛃"
+  decimal-places: 2
+  show-symbol: true
+  symbol-before-amount: true
+  thousands-separator: ","
+  decimal-separator: "."
+
+economy:
+  starting-balance: "100.00"
+  minimum-payment: "0.01"
+  maximum-payment: "1000000.00"
+  baltop-cache-seconds: 60
+  transactions-page-size: 10
+
+storage:
+  sqlite-file: "aureus.db"

@@ -1,0 +1,50 @@
+name: Aureus
+version: ${version}
+main: dev.luxorium.aureus.AureusPlugin
+api-version: '26.1.2'
+folia-supported: true
+authors:
+  - Luxorium
+description: Folia-native economy core for the Luxor Zone SMP server network.
+website: https://github.com/Luxorium/Aureus
+commands:
+  balance:
+    description: Show your Aureus balance.
+    usage: /balance
+    aliases: [bal, money]
+    permission: aureus.command.balance
+  pay:
+    description: Pay another player.
+    usage: /pay <player> <amount>
+    permission: aureus.command.pay
+  baltop:
+    description: Show the richest accounts.
+    usage: /baltop
+    permission: aureus.command.baltop
+  eco:
+    description: Admin economy commands.
+    usage: /eco <give|take|set|reset> <player> [amount]
+    permission: aureus.admin.eco
+  transactions:
+    description: Show transaction history.
+    usage: /transactions [player]
+    permission: aureus.command.transactions.self
+  aureus:
+    description: Aureus administration.
+    usage: /aureus reload
+    permission: aureus.admin.reload
+permissions:
+  aureus.command.balance:
+    default: true
+  aureus.command.pay:
+    default: true
+  aureus.command.baltop:
+    default: true
+  aureus.command.transactions.self:
+    default: true
+  aureus.admin.eco:
+    default: op
+  aureus.admin.transactions.other:
+    default: op
+  aureus.admin.reload:
+    default: op
