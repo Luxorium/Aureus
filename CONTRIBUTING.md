@@ -15,7 +15,7 @@ documented, and safe for Folia.
 ./gradlew clean build
 ```
 
-The compiled jar is written to `build/libs/Aureus-0.1.0.jar`.
+The compiled jar is written to `build/libs/Aureus-0.1.1.jar`.
 
 ## Pull Request Checklist
 

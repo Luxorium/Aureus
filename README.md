@@ -30,12 +30,12 @@ administration, and quality-of-life command plugin.
 | ----------- | ------- |
 | Java | 25 or newer |
 | Server | Paper/Folia 26.1.2 |
-| Aureus | 0.1.0 |
+| Aureus | 0.1.1 |
 | Optional integrations | None |
 
 ## Installation
 
-1. Download `Aureus-0.1.0.jar` from the latest release.
+1. Download `Aureus-0.1.1.jar` from the latest release.
 2. Place the jar in your server's `plugins/` directory.
 3. Restart the server.
 4. Edit `plugins/Aureus/config.yml` as needed.
@@ -50,7 +50,7 @@ administration, and quality-of-life command plugin.
 The compiled plugin jar is written to:
 
 ```text
-build/libs/Aureus-0.1.0.jar
+build/libs/Aureus-0.1.1.jar
 ```
 
 ## Commands and Permissions

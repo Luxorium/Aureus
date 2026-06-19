@@ -3,18 +3,12 @@ plugins {
 }
 
 group = "dev.luxorium"
-version = "0.1.0"
+version = "0.1.1"
 description = "Folia-native economy core for Paper/Folia 26.1.2 Minecraft servers."
 
 repositories {
     mavenCentral()
     maven("https://repo.papermc.io/repository/maven-public/")
-}
-
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(25))
-    }
 }
 
 tasks.withType<JavaCompile>().configureEach {
