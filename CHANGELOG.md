@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Changed
+
+- Updated SQLite JDBC to 3.53.2.0.
+- Updated the JUnit BOM to 6.1.0.
+- Made CI run `./gradlew clean test build` explicitly.
+- Documented the full default configuration key set.
+
 ## [0.1.1] - 2026-06-19
 
 ### Changed

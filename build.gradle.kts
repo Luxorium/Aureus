@@ -18,9 +18,9 @@ tasks.withType<JavaCompile>().configureEach {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:26.1.2.build.+")
-    implementation("org.xerial:sqlite-jdbc:3.50.1.0")
+    implementation("org.xerial:sqlite-jdbc:3.53.2.0")
 
-    testImplementation(platform("org.junit:junit-bom:5.13.1"))
+    testImplementation(platform("org.junit:junit-bom:6.1.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }

@@ -54,7 +54,7 @@ jobs:
           awk 'length($0) > 500 { print FILENAME ":" FNR ": line exceeds 500 characters"; failed = 1 } END { exit failed }' README.md CHANGELOG.md CONTRIBUTING.md SECURITY.md SUPPORT.md
 
       - name: Build
-        run: ./gradlew clean build
+        run: ./gradlew clean test build
 
       - name: Upload plugin jar
         uses: actions/upload-artifact@v7

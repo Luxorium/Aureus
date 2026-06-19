@@ -12,7 +12,7 @@ documented, and safe for Folia.
 ## Build
 
 ```bash
-./gradlew clean build
+./gradlew clean test build
 ```
 
 The compiled jar is written to `build/libs/Aureus-0.1.1.jar`.
@@ -22,7 +22,7 @@ The compiled jar is written to `build/libs/Aureus-0.1.1.jar`.
 - Keep changes focused on one behavior or documentation area.
 - Update `README.md`, `docs`, or `CHANGELOG.md` when user-facing behavior changes.
 - Add or update commands and permissions in `plugin.yml` when needed.
-- Run `./gradlew clean build` before opening a pull request.
+- Run `./gradlew clean test build` before opening a pull request.
 - Test runtime behavior on Paper/Folia 26.1.2 when command or listener behavior changes.
 
 ## Folia Safety
